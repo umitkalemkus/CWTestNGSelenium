@@ -34,7 +34,7 @@ public class Day01_C07_Groups {
 
     @Test(groups = {"regression","smoke"})
     public void checkoutTest() {
-
+        System.out.println();
 
 
     }
