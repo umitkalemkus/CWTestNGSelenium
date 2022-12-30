@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/umitkalemkus/IdeaProjects/CWTestNGSelenium/src/test/java">
+        <classes>
+            <class name="clarusway.tests.Day01_C01_TestNGAnnotations">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C02_Priority">
+                <methods>
+                    <include name="test02"/>
+                    <include name="test04"/>
+                    <include name="test01"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C03_DependsOn">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="registirationTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C04_Enabled">
+                <methods>
+                    <include name="enabledTest"/>
+                    <include name="disabledTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C05_TimeOut">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="timedOutTest"/>
+                    <include name="timedOutTest2"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C06_Descriptions">
+                <methods>
+                    <include name="Logintest"/>
+                    <include name="HomepageTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day01_C09_AssertionTypes">
+                <methods>
+                    <include name="hardAssertion"/>
+                    <include name="softAssertion"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Homework1">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Homework2">
+                <methods>
+                    <include name="Facebook"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Homework3">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Homework4">
+                <methods>
+                    <include name="UserNameTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Homework5">
+                <methods>
+                    <include name="UserNameTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
