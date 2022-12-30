@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class Homework4 extends Basetest {
-   /* Test Case2: Negative Username Test
+public class Homework5 extends Basetest {
+   /* Test Case3: Negative Password Test
     Open page https://practicetestautomation.com/practice-test-login/
-    Type username incorrectUser into Username field.
-    Type password Password123 into Password field.
+    Type username student into Username field.
+    Type password incorrectPassword into Password field.
     Puch Submit button.
     Verify error message is displayed.
-    Verify error message text is Your username is invalid!*/
+    Verify error message text is Your password is invalid!*/
 
     @Test
     public void UserNameTest() {
@@ -21,11 +21,11 @@ public class Homework4 extends Basetest {
         driver.get("https://practicetestautomation.com/practice-test-login/");
 
         WebElement Username = driver.findElement(By.xpath("//input[@id='username']"));
-        Username.sendKeys("incorrectUser");
+        Username.sendKeys("student");
 
 
         WebElement Password = driver.findElement(By.xpath("//input[@id='password']"));
-        Password.sendKeys("Password123");
+        Password.sendKeys("incorrectPassword");
 
         WebElement SubmitButton = driver.findElement(By.xpath("//button[@id='submit']"));
         SubmitButton.click();
@@ -34,14 +34,10 @@ public class Homework4 extends Basetest {
 
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(InvalidMessage.isDisplayed());
-        softAssert.assertAll();
-
-        softAssert.assertTrue(InvalidMessage.getText().contains("Your username is invalid!"));
 
 
-
+        softAssert.assertTrue(InvalidMessage.getText().contains("Your password is invalid!"));
 
 
     }
 }
-

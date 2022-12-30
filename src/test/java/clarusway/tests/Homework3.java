@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class Homework3 extends Basetest {
     /*Test Case1: Positive Login Test
@@ -30,16 +31,19 @@ public class Homework3 extends Basetest {
          SubmitButton.click();
 
         Assert.assertEquals(driver.getCurrentUrl(),"https://practicetestautomation.com/logged-in-successfully/");
-
+        SoftAssert softAssert=new SoftAssert();
         WebElement TextMessage = driver.findElement(By.className("post-title"));
        String Message = TextMessage.getText();
         System.out.println(Message);
-        Assert.assertEquals(Message,"Logged In Successfully");
+       softAssert.assertEquals(Message,"Logged In Successfully");
+       softAssert.assertAll();
 
+       // Assert.assertEquals(Message,"Logged In Successfully");
 
 
 
         WebElement logOut = driver.findElement(By.linkText("Log out"));
+
         Assert.assertTrue(logOut.isDisplayed());
 
 
