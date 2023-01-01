@@ -10,19 +10,19 @@ public class Day01_C02_Priority {
     // // TestNG default (varsayilan) priority = 0 dir
 
 
-    @Test(priority =1000 )
+    @Test(priority =1 )
     public void test02() {
+        System.out.println("a");
     }
 
-    @Test(priority =-1001 )
+    @Test(priority =2 ,enabled = false )
     public void test04() {
+        System.out.println("b");
     }
 
-    @Test()
-    public void test01() {
-    }
 
-    @Test(priority =2000 )
+    @Test(priority =3 )
     public void test03() {
+        System.out.println("c");
     }
 }
