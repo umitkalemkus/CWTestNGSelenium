@@ -1,0 +1,13 @@
+<suite name ="My suite ">
+
+        <test name ="Test01">
+            <classes>
+                <class name ="clarusway.tests.Day01_C04_Enabled">
+
+                </class>
+                <class name="clarusway.tests.Day01_C05_TimeOut"></class>
+
+
+        </classes>
+        </test>
+</suite>
