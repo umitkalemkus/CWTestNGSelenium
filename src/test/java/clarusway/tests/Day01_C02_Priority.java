@@ -12,7 +12,7 @@ public class Day01_C02_Priority {
 
     @Test(priority =1 )
     public void test02() {
-        System.out.println("a");
+        System.out.println("abc");
     }
 
     @Test(priority =2 ,enabled = false )
@@ -25,4 +25,5 @@ public class Day01_C02_Priority {
     public void test03() {
         System.out.println("c");
     }
+
 }
