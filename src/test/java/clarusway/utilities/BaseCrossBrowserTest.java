@@ -30,6 +30,7 @@ public class BaseCrossBrowserTest {
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
+
                 break;
 
         }
