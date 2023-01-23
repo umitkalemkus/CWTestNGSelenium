@@ -31,6 +31,9 @@ public class BaseCrossBrowserTest {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
 
+
+
+
                 break;
 
         }
