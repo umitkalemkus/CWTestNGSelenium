@@ -14,6 +14,7 @@ public class Day01_C03_DependsOn {
     @Test
     public void loginTest(){
         System.out.println("login testi yapiliyor");
+        System.out.println("done");
 
 
     }
