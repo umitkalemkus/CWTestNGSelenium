@@ -56,6 +56,7 @@ public class BaseCrossBrowserTest {
 
     @AfterMethod
     public void teardown(){
+        //System.out.println("driver = " + driver);
 
        // driver.quit();
     }
