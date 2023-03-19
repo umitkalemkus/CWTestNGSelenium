@@ -15,6 +15,21 @@ public class Day03_C06_CrossBrowser extends BaseCrossBrowserTest {
        Thread.sleep(3000);
         Assert.assertEquals(driver.getTitle(),"Google");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
