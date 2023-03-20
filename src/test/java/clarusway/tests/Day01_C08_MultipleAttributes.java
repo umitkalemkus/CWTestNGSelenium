@@ -13,6 +13,17 @@ public class Day01_C08_MultipleAttributes {
             enabled = false
     )
     public void test(){
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
