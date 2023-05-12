@@ -13,7 +13,8 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class C02_Drop_Down {
+public class
+C02_Drop_Down {
     WebDriver driver;
 
     @Before
