@@ -11,6 +11,10 @@ public class Day01_C03_DependsOn {
     // Coklu dependsOn kullaniminda tum bagimli olunan methodlar pass oldugu durumda bagimli method calisir
 
 
+
+
+
+
     @Test
     public void loginTest(){
         System.out.println("login testi yapiliyor");
