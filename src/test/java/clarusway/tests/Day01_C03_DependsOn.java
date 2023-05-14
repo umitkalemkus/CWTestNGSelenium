@@ -24,6 +24,9 @@ public class Day01_C03_DependsOn {
     }
     @Test
     public void registirationTest(){
+
+
+
         System.out.println("registiration testi yapiliyor");
 
 
