@@ -8,6 +8,10 @@ public class Day01_C06_Descriptions {
     public void Logintest() {
     }
 
+
+
+
+
     @Test(description = "Bu test sisitemimizin login fonksiyonlarini kontrol eder.")
     public void HomepageTest() {
     }
