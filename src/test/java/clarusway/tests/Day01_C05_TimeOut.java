@@ -21,6 +21,9 @@ public class Day01_C05_TimeOut {
     @Test(
             timeOut = 1000
     )
+
+
+
     public void timedOutTest() throws InterruptedException {
         // Sout ifademiz calisacaktir timeout exceptiondan once calistigindan dolayi
         System.out.println("1 saniyeden sonra calisti");
