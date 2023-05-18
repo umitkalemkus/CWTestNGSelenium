@@ -34,6 +34,9 @@ public class Day01_C05_TimeOut {
     @Test(
             timeOut = 1000
     )
+
+
+
     public void timedOutTest2() throws InterruptedException {
         // Sout ifademiz calismayacaktir timeout exceptiondan dolayi
         Thread.sleep(1100);
