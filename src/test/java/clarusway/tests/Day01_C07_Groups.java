@@ -6,6 +6,10 @@ public class Day01_C07_Groups {
 
     // Bu groups attributu sayesinde biz istedigimiz gruplara sahip test caselerini ozel olarak calistirabiliriz.
 
+
+
+
+
     @Test(groups = {"smoke","regression"})
     public void loginTest() {
 

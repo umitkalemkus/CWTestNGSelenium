@@ -10,6 +10,9 @@ public class Day01_C08_MultipleAttributes {
 
 
 
+
+
+
             description = "This is a test case",
             priority = 10,
             groups = {"regression"},

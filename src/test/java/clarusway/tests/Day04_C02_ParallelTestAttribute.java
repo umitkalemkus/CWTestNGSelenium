@@ -10,6 +10,9 @@ public class Day04_C02_ParallelTestAttribute {
     )
     public void test(){
 
+
+
+
         System.out.println("Current thread Id = " + Thread.currentThread().getId());
 
     }
