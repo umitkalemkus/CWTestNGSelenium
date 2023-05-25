@@ -20,6 +20,9 @@ public class Day01_C09_AssertionTypes {
 
 
 
+
+
+
         System.out.println("Assertion oncesi calisiyor");
         Assert.assertEquals(1,2);
         System.out.println("Assertion sonrasi calisiyor");
