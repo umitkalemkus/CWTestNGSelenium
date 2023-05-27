@@ -32,6 +32,9 @@ public class Day01_C09_AssertionTypes {
 
     @Test
     public void softAssertion(){
+
+
+
         System.out.println("Soft Assertion oncesi calisiyor");
         SoftAssert softAssert = new SoftAssert();
 
