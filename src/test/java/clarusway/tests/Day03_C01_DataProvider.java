@@ -15,7 +15,11 @@ public class Day03_C01_DataProvider {
     @DataProvider
     public Object[][] dataProvider(){
 
-       Object[][] data ={
+
+
+
+
+        Object[][] data ={
                {"Karl"},
                {"Ortis"},
                {"Clarusway"}
