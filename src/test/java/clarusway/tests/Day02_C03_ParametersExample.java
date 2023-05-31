@@ -21,6 +21,9 @@ public class Day02_C03_ParametersExample {
         } else if (browserName.equals("opera")) {
             driver = "opera";
         }
+
+
+
         System.out.println("Driver objesi olusturuldu -"+ driver);
     }
 
