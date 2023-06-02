@@ -16,6 +16,10 @@ public class Day02_C03_ParametersExample {
         if(browserName.equals("chrome")){
             driver = "chrome";
             
+
+
+
+
         } else if (browserName.equals("firefox")) {
             driver = "firefox";
         } else if (browserName.equals("opera")) {
