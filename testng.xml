@@ -1,8 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/umitkalemkus/IdeaProjects/CWTestNGSelenium/src/test/java">
+    <test verbose="2" preserve-order="true" name="C:/Users/umitkalemkus/IdeaProjects/CWTestNGSelenium">
         <classes>
+            <class name="UmitPractise.AssertClass">
+                <methods>
+                    <include name="testAssert"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.AssertionType">
+                <methods>
+                    <include name="hardAssertion"/>
+                    <include name="softAssertion"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.BasitTest">
+                <methods>
+                    <include name="Test01"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.C02_Drop_Down">
+                <methods>
+                    <include name="selectByIndex"/>
+                    <include name="selectByValue"/>
+                    <include name="selectByVisibleText"/>
+                    <include name="multipleSelect"/>
+                    <include name="getOptions"/>
+                    <include name="getFirstSelectedOption"/>
+                    <include name="getAllSelectedOptions"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.DataProviderExample_2">
+                <methods>
+                    <include name="googlesearch"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.Dataproviderexample">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.DepensOn">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.DepensOnOdev">
+                <methods>
+                    <include name="facebook"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.Description">
+                <methods>
+                    <include name="logintest"/>
+                    <include name="homePagetest"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.Enabled">
+                <methods>
+                    <include name="testName"/>
+                    <include name="testName2"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.ParalelTest_ParametreProjesi">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.Priority">
+                <methods>
+                    <include name="Test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.SoftAssertClass">
+                <methods>
+                    <include name="testAssert"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.SoftAssertionExample">
+                <methods>
+                    <include name="PositiveLoginTest"/>
+                    <include name="NegativeLoginTest"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.TestNGAnnotation">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="UmitPractise.TimeOut">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="timeOutTest"/>
+                </methods>
+            </class>
             <class name="clarusway.tests.Day01_C01_TestNGAnnotations">
                 <methods>
                     <include name="test01"/>
@@ -13,7 +108,6 @@
                 <methods>
                     <include name="test02"/>
                     <include name="test04"/>
-                    <include name="test01"/>
                     <include name="test03"/>
                 </methods>
             </class>
@@ -48,6 +142,86 @@
                     <include name="softAssertion"/>
                 </methods>
             </class>
+            <class name="clarusway.tests.Day02_C03_ParametersExample">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day02_C04_TestNGParametersSeleniumExample">
+                <methods>
+                    <include name="parametersTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C01_DataProvider">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C02_DataProvider">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C04_DataProviderClassTest">
+                <methods>
+                    <include name="dataProviderTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C05_DataProviderExample">
+                <methods>
+                    <include name="amazonSearchTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C06_CrossBrowser">
+                <methods>
+                    <include name="crossBrowserTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day03_C07_CrossBrowserTestExample">
+                <methods>
+                    <include name="amazonTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day04_C01_ParallelTest">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day04_C02_ParallelTestAttribute">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day04_C03_ParallelTestDataProvider">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day05_C01_HTMLReport">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day05_C03_Uselistener">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="failedTest"/>
+                    <include name="timedOutTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day06_C01_ExcelUtil">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Day06_C02_JSutil">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
             <class name="clarusway.tests.Homework1">
                 <methods>
                     <include name="test01"/>
@@ -72,6 +246,35 @@
             <class name="clarusway.tests.Homework5">
                 <methods>
                     <include name="UserNameTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.TestNew">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                    <include name="test04"/>
+                    <include name="test05"/>
+                    <include name="test06"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Um?tPract?es.Day01_C04_Enabled">
+                <methods>
+                    <include name="enabledTest"/>
+                    <include name="disabledTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.tests.Um?tPract?es.Day_01_C05_TimeOut">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="timedOutTest"/>
+                </methods>
+            </class>
+            <class name="clarusway.utilities.Priority">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
                 </methods>
             </class>
         </classes>

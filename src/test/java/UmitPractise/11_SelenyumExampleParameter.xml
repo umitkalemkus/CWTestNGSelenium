@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium browser example suite" >
+    <test name="Selenium browser example test 01">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="SearchWord" value="I phone 14"></parameter>
+        <classes>
+            <class name="UmitPractise.SeleniumParameterExample"></class>
+        </classes>
+    </test>
+
+    <test name="Selenium browser example test02">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="SearchWord" value="I phone 14"></parameter>
+        <classes>
+            <class name="UmitPractise.SeleniumParameterExample"></class>
+        </classes>
+
+
+    </test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>
+
+

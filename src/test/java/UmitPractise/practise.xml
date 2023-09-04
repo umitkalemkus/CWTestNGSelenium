@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practise-1">
+    <groups>
+        <run>
+
+            <include name="smoke"></include>
+        </run>
+
+
+    </groups>
+
+
+
+    <test name="General Test">
+
+        <classes>
+            <class name="clarusway.tests.Day02_C01_TestNGXML_Groups"></class>
+
+
+        </classes>
+
+
+
+
+
+
+    </test>
+
+
+
+
+</suite>
+
+
+
+
+

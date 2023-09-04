@@ -1,4 +1,4 @@
-package clarusway.tests.UmıtPractıes;
+package clarusway.tests.UmitPracties;
 
 import org.testng.annotations.Test;
 

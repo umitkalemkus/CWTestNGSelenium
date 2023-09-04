@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+
+    <test name="Parameters Test">
+
+        <classes>
+
+            <class name="UmitPractise.Parametre">
+                <methods>
+                    <parameter name="isim" value="Umit"></parameter>
+                </methods>
+
+            </class>
+
+
+        </classes>
+
+
+
+
+    </test>
+
+
+
+
+
+
+
+
+
+
+</suite>

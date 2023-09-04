@@ -17,7 +17,7 @@ public class Day03_C05_DataProviderExample extends Basetest {
         driver.get("https://www.amazon.com.tr/");
 WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
 
-        // DataProvider ile saglanan string ifade arama kismina yazilir ve enter a basilir
+        // DataProviders ile saglanan string ifade arama kismina yazilir ve enter a basilir
         searchBox.sendKeys(key + Keys.ENTER);
 
         WebElement searchResult = driver.findElement(By.className("a-color-state"));

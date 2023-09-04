@@ -3,7 +3,7 @@ package clarusway.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Day01_C03_DependsOn {
+public class  Day01_C03_DependsOn {
 
     // Home page testimiz login testimize bagli oldugundan dependsOn attribute unu kullanabiliriz
     // Bagimli olunan test fail olursa bagimli olan method ignore edilir.

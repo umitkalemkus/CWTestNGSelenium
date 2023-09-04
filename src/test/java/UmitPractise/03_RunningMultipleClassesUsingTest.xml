@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Test 01">
+
+        <classes>
+            <class name="UmitPractise.DepensOn"></class>
+            <class name="UmitPractise.Enabled"></class>
+            
+        </classes>
+
+    </test>
+
+    <test name="Test02">
+        
+          <classes>
+              <class name="UmitPractise.Priority"></class>
+          </classes>
+
+
+
+    </test>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</suite>

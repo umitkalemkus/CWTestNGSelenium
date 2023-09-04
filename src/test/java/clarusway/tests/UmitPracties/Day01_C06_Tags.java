@@ -1,6 +1,4 @@
-package clarusway.tests.UmıtPractıes;
-
-import org.testng.annotations.Test;
+package clarusway.tests.UmitPracties;
 
 public class Day01_C06_Tags {
 

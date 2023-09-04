@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -36,6 +37,12 @@ public class Day02_C04_TestNGParametersSeleniumExample {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
+
+            case "edge":
+                WebDriverManager.edgedriver().setup();
+                driver = new EdgeDriver();
+                break;
+
 
         }
 
