@@ -20,15 +20,17 @@ public abstract class Basetest {
 
 
 
+
+
     @BeforeMethod
     public void setup(){
         WebDriverManager.chromedriver().setup();
         //driver = new ChromeDriver();
-       /* ChromeOptions co = new ChromeOptions();
+        ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
         System.setProperty("webdriver.chrome.driver","C:\\Users\\chromedriver.exe");
-        driver = new ChromeDriver(co);*/
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver(co);
+       // driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         actions = new Actions(driver);
