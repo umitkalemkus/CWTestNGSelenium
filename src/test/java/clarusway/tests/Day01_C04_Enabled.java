@@ -9,6 +9,8 @@ public class Day01_C04_Enabled {
         System.out.println("Test calisiyor ");
     }
 
+
+
     @Test(enabled = true)
     public void disabledTest() {
     }

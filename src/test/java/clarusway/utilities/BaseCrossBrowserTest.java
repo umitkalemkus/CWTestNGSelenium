@@ -26,10 +26,9 @@ public class BaseCrossBrowserTest {
 
 
             case "chrome":
-                WebDriverManager.chromedriver().setup();
-                ChromeOptions co = new ChromeOptions();
-                co.addArguments("--remote-allow-origins=*");
-                driver = new ChromeDriver(co);
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--remote-allow-origins=*");
+                driver = new ChromeDriver(options);
                 break;
 
             case "firefox":
