@@ -20,6 +20,8 @@ public class SoftAssertClass {
 
     @Test
     public void testAssert() throws InterruptedException {
+
+
         //1. Launch browser
         // 2. Navigate to url 'http://automationexercise.com'
         //3. Verify that home page is visible successfully
