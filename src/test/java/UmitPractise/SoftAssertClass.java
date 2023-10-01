@@ -33,6 +33,7 @@ public class SoftAssertClass {
         //9. Verify that detail detail is visible: product name, category,
 
 
+
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
