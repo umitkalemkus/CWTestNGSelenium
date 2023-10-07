@@ -45,6 +45,7 @@ public class SoftAssertClass {
 
         //3. Verify that home page is visible successfully
 
+
         softAssert.assertEquals(driver.getCurrentUrl(),"https://automationexercise.com/");
 
         //4. Click on 'Products' button
