@@ -28,6 +28,8 @@ public class Day01_C07_Groups {
 
 
 
+
+
     @Test(groups = {"smoke","regression"})
     public void loginTest() {
 
