@@ -23,9 +23,7 @@ WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
         WebElement searchResult = driver.findElement(By.className("a-color-state"));
 
         // Arama sonucunun aradigimiz kelimeyi icerip icermedigi kontrol edilir
-        Assert.assertTrue(searchResult.getText().contains(key));
-
-    }
+        Assert.assertTrue(searchResult.getText().contains(key));}
 
 
     @DataProvider

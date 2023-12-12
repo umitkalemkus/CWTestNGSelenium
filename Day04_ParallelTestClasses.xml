@@ -25,6 +25,7 @@
 
     <test name ="Parallel Tests 03">
         <classes>
+
             <class name="clarusway.tests.Day01_C09_AssertionTypes"></class>
             <class name="clarusway.tests.Day01_C03_DependsOn"></class>
             <class name="clarusway.tests.Day01_C05_TimeOut"></class>
