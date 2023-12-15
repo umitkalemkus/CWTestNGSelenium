@@ -4,6 +4,7 @@
     <test name="Running single new class">
         <classes>
             <class name="UmitPractise.AssertionType"></class>
+
             
         </classes>
 

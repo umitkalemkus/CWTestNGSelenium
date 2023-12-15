@@ -14,6 +14,7 @@ public class Day01_C01_TestNGAnnotations {
 
 
  @Test
+
  public void test01(){
   System.out.println("\t\t\t\tTest 01 calisiyor");
  }
